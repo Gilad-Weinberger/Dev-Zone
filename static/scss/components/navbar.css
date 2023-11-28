@@ -1,3 +1,6 @@
-.navbar .search .searchinput {
+.navbar .search {
   border: 1px solid #f0f0f0;
+}
+.navbar .search .searchinput {
+  border: none;
 }/*# sourceMappingURL=navbar.css.map */
