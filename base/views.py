@@ -2,13 +2,14 @@ from django.shortcuts import render
 
 def generate_menu(n):
     menu = [
-        {"name": "Home", "icon": "fa-regular fa-house", "now": False},
-        {"name": "Projects", "icon": "fa-regular fa-house", "now": False},
-        {"name": "Statistics", "icon": "fa-regular fa-house", "now": False},
-        {"name": "Competitions", "icon": "fa-regular fa-house", "now": False},
-        {"name": "FAQ", "icon": "fa-regular fa-house", "now": False},
-        {"name": "Blog", "icon": "fa-regular fa-house", "now": False},
-        {"name": "Club", "icon": "fa-regular fa-house", "now": False},
+        {"name": "בית", "icon": "fa-regular fa-house", "now": False},
+        {"name": "פרוייקטים", "icon": "fa-regular fa-laptop", "now": False},
+        {"name": "סטטיסטיקות", "icon": "fa-regular fa-signal-bars", "now": False},
+        {"name": "תחרויות", "icon": "fa-regular fa-trophy", "now": False},
+        {"name": "שאלות נפוצות", "icon": "fa-regular fa-circle-info", "now": False},
+        {"name": "בלוג", "icon": "fa-regular fa-newspaper", "now": False},
+        {"name": "מועדון", "icon": "fa-regular fa-users", "now": False},
+        {"name": "הגדרות", "icon": "fa-regular fa-gear", "now": False},
     ]
     if n >= len(menu):
         return
