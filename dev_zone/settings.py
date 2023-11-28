@@ -73,6 +73,7 @@ WSGI_APPLICATION = 'dev_zone.wsgi.application'
 
 
 # Database
+#abc
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
 DATABASES = {
