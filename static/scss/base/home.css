@@ -10,5 +10,6 @@ body .container {
 }
 body .container .top .welcome {
   font-family: "Rubik";
-  font-size: 20px;
+  font-size: 28px;
+  font-weight: 600;
 }/*# sourceMappingURL=home.css.map */
