@@ -22,6 +22,7 @@
 .navbar .right .notification {
   display: flex;
   align-items: center;
+  margin-left: 20px;
 }
 .navbar .right .notification .updates {
   margin-left: 10px;
