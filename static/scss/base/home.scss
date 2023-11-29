@@ -1,17 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
 
+$color-bg: #f6f6f8;
+
 body {
   margin: 0px;
   direction: rtl;
   display: flex;
   .container {
     padding-right: 200px;
-    .top {
-      .welcome {
-        font-family: "Rubik";
-        font-size: 28px;
-        font-weight: 600;
+    .main {
+      background-color: $color-bg;
+      padding: 20px;
+      .top {
+        .welcome {
+          font-family: "Rubik";
+          font-size: 28px;
+          font-weight: 600;
+          margin: 0px;
+        }
       }
     }
   }

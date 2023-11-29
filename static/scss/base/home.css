@@ -8,8 +8,13 @@ body {
 body .container {
   padding-right: 200px;
 }
-body .container .top .welcome {
+body .container .main {
+  background-color: #f6f6f8;
+  padding: 20px;
+}
+body .container .main .top .welcome {
   font-family: "Rubik";
   font-size: 28px;
   font-weight: 600;
+  margin: 0px;
 }/*# sourceMappingURL=home.css.map */
