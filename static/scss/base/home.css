@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
 body {
   margin: 0px;
   direction: rtl;
@@ -5,4 +7,8 @@ body {
 }
 body .container {
   padding-right: 200px;
+}
+body .container .top .welcome {
+  font-family: "Rubik";
+  font-size: 20px;
 }/*# sourceMappingURL=home.css.map */
