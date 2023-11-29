@@ -1,0 +1,31 @@
+.sidebar {
+  position: fixed;
+  padding: 20px;
+  .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .title {
+      margin: 0px;
+    }
+  }
+  .menu {
+    margin-top: 40px;
+    .item {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      margin-bottom: 24px;
+      i{
+        font-size: 18px;
+        margin-left: 10px;
+      }
+      .name{
+        margin: 0px;
+      }
+      &.logout{
+        margin-top: 45px;
+      }
+    }
+  }
+}

@@ -1,1 +1,8 @@
-/*# sourceMappingURL=home.css.map */
+body {
+  margin: 0px;
+  direction: rtl;
+  display: flex;
+}
+body .container {
+  padding-right: 200px;
+}/*# sourceMappingURL=home.css.map */

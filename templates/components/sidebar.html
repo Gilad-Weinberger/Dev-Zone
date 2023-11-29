@@ -16,11 +16,15 @@
       </div>
       <div class="menu">
         {% for item in menu %}
-        <div class="item">
+        <div class="item {% if item.now %} now {% endif %}">
           <i class="{{ item.icon }}"></i>
           <p class="name">{{ item.name }}</p>
         </div>
         {% endfor %}
+        <div class="item logout">
+          <i class="fa-regular fa-right-from-bracket"></i>
+          <p class="name">יציאה</p>
+        </div>
       </div>
     </div>
   </body>
