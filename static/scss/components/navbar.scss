@@ -5,7 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
+  width: calc(100vw - 200px);
   font-family: 'Rubik';
   .search {
     border: 1px solid #f0f0f0;
@@ -16,10 +16,12 @@
   .right {
     display: flex;
     align-items: center;
-    .notification {
+    .notification { 
+    display: flex;
+    align-items: center;
       .updates {
       }
-      .notifi {
+      .notf {
       }
     }
     .account {
