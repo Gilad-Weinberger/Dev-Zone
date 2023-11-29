@@ -1,21 +1,26 @@
 .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   .search {
     border: 1px solid #f0f0f0;
     .search-input {
       border: none;
     }
   }
-  .notification{
-    .updates{
-      
+  .right {
+    display: flex;
+    align-items: center;
+    .notification {
+      .updates {
+      }
+      .notifi {
+      }
     }
-    .notifi{
-
-    }
-  }
-  .account{
-    .account-image{
-      border-radius: 50%;
+    .account {
+      .account-image {
+        border-radius: 50%;
+      }
     }
   }
 }

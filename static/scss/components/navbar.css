@@ -1,9 +1,18 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .navbar .search {
   border: 1px solid #f0f0f0;
 }
 .navbar .search .search-input {
   border: none;
 }
-.navbar .account .account-image {
+.navbar .right {
+  display: flex;
+  align-items: center;
+}
+.navbar .right .account .account-image {
   border-radius: 50%;
 }/*# sourceMappingURL=navbar.css.map */
