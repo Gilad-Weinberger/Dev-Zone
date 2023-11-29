@@ -11,14 +11,14 @@ def generate_menu(n):
         {"name": "מועדון", "icon": "fa-regular fa-users", "now": False},
         {"name": "הגדרות", "icon": "fa-regular fa-gear", "now": False},
     ]
-    if n >= len(menu):
-        return
+    if n >= len(menu) or n < 0:
+        return []
     menu[n]["now"] = True
     return menu
 
 def home(request):
     menu = generate_menu(0)
-
+    
     context = {
         "menu": menu,
     }

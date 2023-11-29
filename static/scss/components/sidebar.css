@@ -1,23 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
 .sidebar {
   position: fixed;
-  padding: 20px;
+  padding: 30px 20px;
+  width: 160px;
 }
 .sidebar .top {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 .sidebar .top .title {
   margin: 0px;
+  font-family: "Handlee";
+}
+.sidebar .top .logo {
+  height: 30px;
+  margin-left: 13px;
 }
 .sidebar .menu {
-  margin-top: 40px;
+  margin-top: 30px;
+  width: 100%;
 }
 .sidebar .menu .item {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  margin-bottom: 24px;
+  margin-bottom: 6px;
+  padding: 13px 15px;
+  cursor: pointer;
+  border-radius: 7px;
 }
 .sidebar .menu .item i {
   font-size: 18px;
@@ -25,7 +37,12 @@
 }
 .sidebar .menu .item .name {
   margin: 0px;
+  font-family: "Rubik";
+  font-weight: 500;
+}
+.sidebar .menu .item.now {
+  background-color: #f1f1f3;
 }
 .sidebar .menu .item.logout {
-  margin-top: 45px;
+  margin-top: 20px;
 }/*# sourceMappingURL=sidebar.css.map */

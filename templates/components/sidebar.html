@@ -11,12 +11,12 @@
   <body>
     <div class="sidebar">
       <div class="top">
-        <img src="" alt="" class="logo" />
+        <img src="{% static 'images/logo.png' %}" alt="" class="logo" />
         <h2 class="title">DevZone</h2>
       </div>
       <div class="menu">
         {% for item in menu %}
-        <div class="item {% if item.now %} now {% endif %}">
+        <div class="item {% if item.now %}now{% endif %}">
           <i class="{{ item.icon }}"></i>
           <p class="name">{{ item.name }}</p>
         </div>
